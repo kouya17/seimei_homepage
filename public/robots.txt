@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://seimei.kouya17.com
+
+# Sitemaps
+Sitemap: https://seimei.kouya17.com/sitemap.xml
