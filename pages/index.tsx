@@ -23,10 +23,11 @@ const Home: NextPage = () => {
         <div className='py-3'>
           小規模なソフト開発を承ります。主に動画処理、Webスクレイピング周りを強みとしています。
         </div>
-
-        <button className='my-2 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full'>
-          <a href="https://forms.gle/TEoSozXFawU8DhbE8">お問い合わせ</a>
-        </button>
+        <a href="https://forms.gle/TEoSozXFawU8DhbE8">
+          <button className='my-2 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full'>
+            お問い合わせ
+          </button>
+        </a>
 
         <h2 className='text-xl pt-8 pb-3 text-center'>実績例</h2>
         <ul>
@@ -34,7 +35,7 @@ const Home: NextPage = () => {
           <li>画像ファイルからタイムラプスを生成するWebアプリ: 対価5万円程度</li>
           <li>データベースソフト「Fullfree」向けのデータベース設計: 対価3万円程度</li>
         </ul>
-        
+
         <h2 className='text-xl pt-8 pb-3 text-center'>清明ソフト開発について</h2>
         <div>清明ソフト開発は神奈川県で活動しているフリーランスエンジニアの個人事務所です。私の経歴は以下から確認できます。</div>
         <Link href="https://resume.kouya17.com/">
@@ -43,8 +44,8 @@ const Home: NextPage = () => {
           </a>
         </Link>
       </main>
-      
-      <Footer/>
+
+      <Footer />
 
     </div>
   )
