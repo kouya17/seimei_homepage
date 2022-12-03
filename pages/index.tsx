@@ -24,7 +24,7 @@ const Home: NextPage = () => {
           小規模なソフト開発を承ります。主に動画処理、Webスクレイピング周りを強みとしています。
         </div>
         <a href="https://forms.gle/TEoSozXFawU8DhbE8">
-          <button className='my-2 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full'>
+          <button className='my-2 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full w-full'>
             お問い合わせ
           </button>
         </a>
