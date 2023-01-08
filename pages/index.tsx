@@ -58,16 +58,12 @@ const Home: NextPage = () => {
               <td>清明ソフト開発</td>
             </tr>
             <tr className='border-b'>
-              <td>屋号(カナ)</td>
-              <td>セイメイソフトカイハツ</td>
-            </tr>
-            <tr className='border-b'>
               <td>連絡先</td>
               <td><Link href="https://forms.gle/TEoSozXFawU8DhbE8"><a className='text-blue-600'>お問い合わせ</a></Link></td>
             </tr>
             <tr className='border-b'>
-              <td>設立年</td>
-              <td>2023年</td>
+              <td>開業日</td>
+              <td>2023年1月2日</td>
             </tr>
             <tr className='border-b'>
               <td>事業内容</td>
