@@ -22,7 +22,7 @@ const Home: NextPage = () => {
         <h2 className='text-xl pb-3 text-center font-bold'>サービス内容</h2>
         <ul className='list-disc py-2'>
           <li>Webスクレイピングソフトの開発</li>
-          <li>動画配信システム構築コンサルタント</li>
+          <li>動画配信システム構築のコンサルタント</li>
           <li>Webアプリの開発</li>
           <li>各種ツールの開発</li>
           <li>電子工作教育</li>
