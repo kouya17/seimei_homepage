@@ -20,7 +20,7 @@ const Home: NextPage = () => {
         </h1>
 
         <h2 className='text-xl pb-3 text-center font-bold'>サービス内容</h2>
-        <ul className='list-disc py-2'>
+        <ul className='list-disc py-2 px-5'>
           <li>Webスクレイピングソフトの開発</li>
           <li>動画配信システム構築のコンサルタント</li>
           <li>Webアプリの開発</li>
@@ -34,7 +34,7 @@ const Home: NextPage = () => {
         </a>
 
         <h2 className='text-xl pt-8 pb-3 text-center font-bold'>実績例</h2>
-        <ul className='list-disc py-2'>
+        <ul className='list-disc py-2 px-5'>
           <li>多段SSH用のスクリプト作成: 対価1万円程度</li>
           <li>画像ファイルからタイムラプスを生成するWebアプリ: 対価5万円程度</li>
           <li>データベースソフト「Fullfree」向けのデータベース設計: 対価3万円程度</li>
