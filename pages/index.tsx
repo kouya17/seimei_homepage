@@ -68,6 +68,10 @@ const Home: NextPage = () => {
               <td>清明ソフト開発</td>
             </tr>
             <tr className='border-b'>
+              <td>代表者</td>
+              <td>大平 航也 / Koya Ohira</td>
+            </tr>
+            <tr className='border-b'>
               <td>連絡先</td>
               <td><Link href="https://forms.gle/TEoSozXFawU8DhbE8"><a className='text-blue-500'>お問い合わせ</a></Link></td>
             </tr>
