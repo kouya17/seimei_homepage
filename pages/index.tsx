@@ -5,7 +5,7 @@ import Footer from '../components/footer'
 
 const Home: NextPage = () => {
   return (
-    <div className='dark:bg-gray-800 dark:text-gray-200'>
+    <div className='dark:bg-zinc-800 dark:text-gray-200'>
       <Head>
         <title>清明ソフト開発 | TOP</title>
         <meta name="description" content="清明ソフト開発のTOPページ" />
@@ -44,7 +44,7 @@ const Home: NextPage = () => {
         <div className='py-2'>
           <div>清明ソフト開発は神奈川県で活動しているフリーランスエンジニアの個人事務所です。私の経歴は以下から確認できます。</div>
           <Link href="https://resume.kouya17.com/">
-            <a className='text-blue-600'>
+            <a className='text-blue-500'>
               https://resume.kouya17.com/
             </a>
           </Link>
@@ -59,7 +59,7 @@ const Home: NextPage = () => {
             </tr>
             <tr className='border-b'>
               <td>連絡先</td>
-              <td><Link href="https://forms.gle/TEoSozXFawU8DhbE8"><a className='text-blue-600'>お問い合わせ</a></Link></td>
+              <td><Link href="https://forms.gle/TEoSozXFawU8DhbE8"><a className='text-blue-500'>お問い合わせ</a></Link></td>
             </tr>
             <tr className='border-b'>
               <td>開業日</td>
