@@ -50,6 +50,16 @@ const Home: NextPage = () => {
           </Link>
         </div>
         
+        <h2 className='text-xl pt-8 pb-3 text-center font-bold'>各種クラウドソーシングサービスのリンク</h2>
+        <div className='py-2'>
+          <div>以下サービス経由で依頼を出していただくことも可能です。</div>
+          <ul className='list-disc pt-1 px-5'>
+            <li><Link href="https://crowdworks.jp/public/employees/4608762"><a className='text-blue-500'>クラウドワークス</a></Link></li>
+            <li><Link href="https://www.lancers.jp/profile/kouya_17"><a className='text-blue-500'>ランサーズ</a></Link></li>
+            <li><Link href="https://coconala.com/users/2928527"><a className='text-blue-500'>ココナラ</a></Link></li>
+          </ul>
+        </div>
+        
         <h2 className='text-xl pt-8 pb-3 text-center font-bold'>事業者概要</h2>
         <table className='table-auto my-2'>
           <tbody>
