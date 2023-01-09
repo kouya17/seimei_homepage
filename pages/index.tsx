@@ -69,7 +69,7 @@ const Home: NextPage = () => {
             </tr>
             <tr className='border-b'>
               <td>代表者</td>
-              <td>大平 航也 / Koya Ohira</td>
+              <td>大平 航也</td>
             </tr>
             <tr className='border-b'>
               <td>連絡先</td>
