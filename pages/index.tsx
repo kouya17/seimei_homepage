@@ -29,7 +29,7 @@ const Home: NextPage = () => {
         </ul>
         <a href="https://forms.gle/TEoSozXFawU8DhbE8">
           <button className='my-2 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full w-full'>
-            お問い合わせ
+            見積もりを依頼する
           </button>
         </a>
 
