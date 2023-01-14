@@ -2,6 +2,7 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import Link from 'next/link'
 import Footer from '../components/footer'
+import Image from 'next/image'
 
 const Home: NextPage = () => {
   return (
@@ -25,13 +26,18 @@ const Home: NextPage = () => {
           <li>動画配信システム構築のコンサルタント</li>
           <li>Webアプリの開発</li>
           <li>各種ツールの開発</li>
+          <li>プログラミング教育</li>
           <li>電子工作教育</li>
         </ul>
         <a href="https://forms.gle/TEoSozXFawU8DhbE8">
-          <button className='my-2 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full w-full'>
+          <button className='mt-2 mb-3 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full w-full'>
             見積もりを依頼する
           </button>
         </a>
+        <div className='pt-3 pb-3'>LINEからの問い合わせも受け付けています。</div>
+        <div className='block mx-auto'>
+          <Image src="qr.png" alt="LINEアカウント友達登録用QRコード" width={150} height={150}/>
+        </div>
 
         <h2 className='text-xl pt-8 pb-3 text-center font-bold'>実績例</h2>
         <ul className='list-disc py-2 px-5'>
@@ -92,7 +98,7 @@ const Home: NextPage = () => {
       </main>
 
       <div className='mt-10 pt-8 pb-6 bg-gray-100 dark:bg-zinc-900'>
-        <div className=' flex-grow container max-w-lg mx-auto px-4 flex flex-col'>
+        <div className='flex-grow container max-w-lg mx-auto px-4 flex flex-col'>
           <Footer/>
         </div>
       </div>
