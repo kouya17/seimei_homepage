@@ -8,15 +8,15 @@ const Fullfree: NextPage = () => {
     <div className='dark:bg-zinc-800 dark:text-gray-200'>
       <Head>
         <title>清明ソフト開発 | Fullfree</title>
-        <meta name="description" content="Fullfreeの作業代行は清明ソフト開発にお任せください。" />
+        <meta name="description" content="Fullfreeのカスタマイズは清明ソフト開発にお任せください。" />
         <link rel="icon" href="/favicon.ico" />
-        <meta property="og:title" content="清明ソフト開発 | Fullfree" />
-        <meta property="og:description" content="Fullfreeの作業代行は清明ソフト開発にお任せください。" />
+        <meta property="og:title" content="清明ソフト開発 | Fullfreeカスタマイズ" />
+        <meta property="og:description" content="Fullfreeのカスタマイズは清明ソフト開発にお任せください。" />
         <meta name="twitter:card" content="summary" />
       </Head>
-      <main className='flex-grow container max-w-lg mx-auto px-4 flex flex-col min-h-screen'>
+      <main className='flex-grow container max-w-lg mx-auto px-4 flex flex-col'>
         <h1 className='text-4xl font-bold py-10 text-center'>
-          Fullfreeの作業代行は清明ソフト開発にお任せください
+          Fullfreeのカスタマイズは清明ソフト開発にお任せください
         </h1>
 
         <h2 className='text-xl py-3 text-center font-bold'>顧客管理コストの削減をご検討ですか？</h2>
@@ -47,12 +47,13 @@ const Fullfree: NextPage = () => {
           <li>個人運営サービス向けの顧客管理データベース設計: 対価3万円程度</li>
           <li>法人運営サービス向けの顧客管理データベース検討: 対価2万円程度</li>
         </ul>
-
-        <h2 className='text-xl pt-8 pb-3 text-center font-bold'>清明ソフト開発について</h2>
-        <Link href="/"><a className='text-blue-500'>事業者概要ページはこちら</a></Link>
       </main>
 
-      <Footer />
+      <div className='mt-10 pt-8 pb-6 bg-gray-100 dark:bg-zinc-900'>
+        <div className=' flex-grow container max-w-lg mx-auto px-4 flex flex-col'>
+          <Footer/>
+        </div>
+      </div>
 
     </div>
   )

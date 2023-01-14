@@ -14,7 +14,7 @@ const Home: NextPage = () => {
         <meta property="og:description" content="清明ソフト開発のTOPページ" />
         <meta name="twitter:card" content="summary" />
       </Head>
-      <main className='flex-grow container max-w-lg mx-auto px-4 flex flex-col min-h-screen'>
+      <main className='flex-grow container max-w-lg mx-auto px-4 flex flex-col'>
         <h1 className='text-4xl font-bold py-10 text-center'>
           清明ソフト開発
         </h1>
@@ -44,7 +44,7 @@ const Home: NextPage = () => {
         <div className='py-2'>
           <div>清明ソフト開発は神奈川県で活動しているフリーランスエンジニアの個人事務所です。私の経歴は以下から確認できます。</div>
           <Link href="https://resume.kouya17.com/">
-            <a className='text-blue-500'>
+            <a className='text-blue-500 hover:underline'>
               https://resume.kouya17.com/
             </a>
           </Link>
@@ -54,9 +54,9 @@ const Home: NextPage = () => {
         <div className='py-2'>
           <div>以下サービス経由で依頼を出していただくことも可能です。</div>
           <ul className='list-disc pt-1 px-5'>
-            <li><Link href="https://crowdworks.jp/public/employees/4608762"><a className='text-blue-500'>クラウドワークス</a></Link></li>
-            <li><Link href="https://www.lancers.jp/profile/kouya_17"><a className='text-blue-500'>ランサーズ</a></Link></li>
-            <li><Link href="https://coconala.com/users/2928527"><a className='text-blue-500'>ココナラ</a></Link></li>
+            <li><Link href="https://crowdworks.jp/public/employees/4608762"><a className='text-blue-500 hover:underline'>クラウドワークス</a></Link></li>
+            <li><Link href="https://www.lancers.jp/profile/kouya_17"><a className='text-blue-500 hover:underline'>ランサーズ</a></Link></li>
+            <li><Link href="https://coconala.com/users/2928527"><a className='text-blue-500 hover:underline'>ココナラ</a></Link></li>
           </ul>
         </div>
         
@@ -73,7 +73,7 @@ const Home: NextPage = () => {
             </tr>
             <tr className='border-b'>
               <td>連絡先</td>
-              <td><Link href="https://forms.gle/TEoSozXFawU8DhbE8"><a className='text-blue-500'>お問い合わせ</a></Link></td>
+              <td><Link href="https://forms.gle/TEoSozXFawU8DhbE8"><a className='text-blue-500 hover:underline'>お問い合わせ</a></Link></td>
             </tr>
             <tr className='border-b'>
               <td>開業日</td>
@@ -91,7 +91,11 @@ const Home: NextPage = () => {
         </table>
       </main>
 
-      <Footer />
+      <div className='mt-10 pt-8 pb-6 bg-gray-100 dark:bg-zinc-900'>
+        <div className=' flex-grow container max-w-lg mx-auto px-4 flex flex-col'>
+          <Footer/>
+        </div>
+      </div>
 
     </div>
   )
