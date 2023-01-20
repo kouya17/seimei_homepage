@@ -77,7 +77,7 @@ const Home: NextPage = () => {
         </table>
 
         <h2 id="contact" className='text-2xl pt-8 pb-3 text-center font-bold'>お問い合わせ</h2>
-        <div className="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
+        <div className="flex py-2 space-x-6 justify-center">
           <Link href="mailto:seimei.soft.dev&#64;gmail.com">
             <a>
               <FiMail size={40} color="gray" />
