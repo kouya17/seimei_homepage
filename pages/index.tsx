@@ -57,10 +57,6 @@ const Home: NextPage = () => {
               <td>清明ソフト開発</td>
             </tr>
             <tr className='border-b'>
-              <td>代表者</td>
-              <td>大平 航也</td>
-            </tr>
-            <tr className='border-b'>
               <td>開業日</td>
               <td>2023年1月2日</td>
             </tr>
