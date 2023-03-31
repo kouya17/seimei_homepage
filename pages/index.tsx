@@ -33,7 +33,7 @@ const Home: NextPage = () => {
 
       <main className='flex-grow container max-w-lg mx-auto px-4 flex flex-col'>
 
-        <Image src="/seimei_logo.png" alt="logo" width={500} height={500}/>
+        <Image src="/seimei_logo.png" alt="logo" width={500} height={250}/>
 
         <h2 id="greet" className='text-2xl pb-3 text-center font-bold'>あなたに寄り添うソフト開発を</h2>
         <div className='py-2'>
