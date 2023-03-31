@@ -5,6 +5,7 @@ import Footer from '../components/footer'
 import Header from '../components/header'
 import { FaTwitter, FaLine } from 'react-icons/fa';
 import { FiMail } from 'react-icons/fi'
+import Image from 'next/image'
 
 const Home: NextPage = () => {
   const navs = [
@@ -35,6 +36,8 @@ const Home: NextPage = () => {
         <h1 className='text-4xl font-bold py-10 text-center'>
           清明ソフト開発
         </h1>
+
+        <Image src="/semiei_logo.png" alt="logo" width={500} height={500}/>
 
         <h2 id="greet" className='text-2xl pb-3 text-center font-bold'>あなたに寄り添うソフト開発を</h2>
         <div className='py-2'>
