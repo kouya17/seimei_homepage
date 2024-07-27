@@ -45,6 +45,7 @@ const Home: NextPage = () => {
 
         <h2 id="experience" className='text-2xl pt-8 pb-3 text-center font-bold'>実績例</h2>
         <ul className='list-disc py-2 px-5'>
+          <li>RUSTゲームサーバーの構築・運用サポート: 対価1万円程度</li>
           <li>多段SSH用のスクリプト作成: 対価1万円程度</li>
           <li>画像ファイルからタイムラプスを生成するWebアプリ: 対価5万円程度</li>
           <li>データベースソフト「Fullfree」向けのデータベース設計: 対価3万円程度</li>
